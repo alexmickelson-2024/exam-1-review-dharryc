@@ -2,25 +2,27 @@
     --snow-blue: hsl(220, 55%, 15%);
     --background-white: whitesmoke;
     --dark-text: black;
-    --border-color: hsl(0, 31%, 85%);
+    --border-color: hsl(0, 0%, 77%);
     --shadow-color: hsl(0, 0%, 73%);
-    margin: 0;
 }
 
 .banner {
+    position: relative;
+    top: 0em;
     background-color: var(--snow-blue);
     margin-top: 0;
+    margin-left: 0;
 }
 
 .banner img {
     padding-top: .5em;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
     width: 20%;
 }
 
 .button {
     position: relative;
-    bottom: 1em;
+    bottom: .7em;
     color: var(--dark-text);
     margin-left: 2em;
     padding-left: .5em;
@@ -53,6 +55,7 @@
 
 .card figcaption {
     padding-left: .5em;
+    padding-bottom: .3em;
 }
 
 #line {
@@ -67,11 +70,37 @@
 
 #break {
     color: var(--snow-blue);
+    padding-left: .5em;
 }
 
-#meatOfThePage{
+.please {
     display: inline-block;
+    width: 49%;
 }
-#meatOfThePage p{
-    width: 30%;
+
+.please img {
+    width: 90%;
+    padding-left: 2em;
+}
+
+.lastLinks div {
+    border: solid;
+    border-width: .1em;
+    border-color: var(--border-color);
+    width: 45%;
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.lastLinks p {
+    color: orange;
+    padding-left: 1em;
+}
+
+.lastLinks h3 {
+    margin: 0;
+    background-color: var(--border-color);
+    padding-left: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
 }
