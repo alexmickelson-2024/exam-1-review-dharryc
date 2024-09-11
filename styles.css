@@ -1,0 +1,77 @@
+:root {
+    --snow-blue: hsl(220, 55%, 15%);
+    --background-white: whitesmoke;
+    --dark-text: black;
+    --border-color: hsl(0, 31%, 85%);
+    --shadow-color: hsl(0, 0%, 73%);
+    margin: 0;
+}
+
+.banner {
+    background-color: var(--snow-blue);
+    margin-top: 0;
+}
+
+.banner img {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    width: 20%;
+}
+
+.button {
+    position: relative;
+    bottom: 1em;
+    color: var(--dark-text);
+    margin-left: 2em;
+    padding-left: .5em;
+    padding-right: 1em;
+    background-color: var(--background-white);
+    display: inline-block;
+    text-align: left;
+    padding-top: .2em;
+}
+
+.button a {
+    text-decoration: none;
+    color: var(--dark-text);
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    border: solid;
+    border-color: var(--border-color);
+    color: whitesmoke;
+    background-color: var(--snow-blue);
+    border-width: .1em;
+    transition: 1s;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card figcaption {
+    padding-left: .5em;
+}
+
+#line {
+    border: 1px solid hsl(0, 17%, 94%);
+    box-shadow: .1em .3em .5em rgb(173, 170, 170);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 1em 1em 1em var(--shadow-color);
+}
+
+#break {
+    color: var(--snow-blue);
+}
+
+#meatOfThePage{
+    display: inline-block;
+}
+#meatOfThePage p{
+    width: 30%;
+}
